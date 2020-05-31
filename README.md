@@ -1,2 +1,2 @@
 # KAG-Factions-MOD
-The official Github repository of the King Arthur's Gold Factions mod.
+A mod for King Arthur’s Gold, back with self-buildable vehicles, a new blocks, and much, much more! Currently under development.
