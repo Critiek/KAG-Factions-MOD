@@ -13,14 +13,12 @@ SColor getNameColour(CPlayer@ p)
 
     if (p.isDev()) {
         c = SColor(0xffb400ff); //dev
-    } else if (username == "Suprejso" || username == "an_obamanation" || username == "king-george" || username == "ollimarrex") {
+    } else if (username == "Jumbra99") {
         c = HSVToRGB(getGameTime() % 360, 1.0f, 1.0f); //mod dev
     } else if (p.isGuard()) {
         c = SColor(0xffa0ffa0); //guard
     } else if (getSecurity().checkAccess_Feature(p, "admin_color") || p.isRCON()) {
         c = SColor(0xfffa5a00); //admin
-    } else if (p.isMyPlayer()) {
-        c = SColor(0xffffEE44); //my player
     } else {
         c = SColor(0xffffffff); //normal
     }
