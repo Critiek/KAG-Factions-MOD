@@ -93,6 +93,12 @@ void addCommonBuilderBlocks(BuildBlock[][]@ blocks)
 		AddRequirement(b.reqs, "blob", "mat_stone", "Stone", 30);
 		blocks[0].push_back(b);
 	}
+	{
+		BuildBlock b(0, "slidingdoor", "$slidingdoor$", "Large, sliding door for castle defense");
+		AddRequirement(b.reqs, "blob", "mat_stone", "Stone", 1000);
+		AddRequirement(b.reqs, "blob", "mat_wood", "Wood", 500);
+		blocks[0].push_back(b);
+	}
 
 	if(CTF)
 	{
