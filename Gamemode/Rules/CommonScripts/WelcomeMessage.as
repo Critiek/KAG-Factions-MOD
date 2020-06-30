@@ -21,6 +21,7 @@ void onTick(CRules@ this)
 		client_AddToChat("Welcome to KAG factions!, " + localPlayer.getCharacterName() + "!", color);
 		client_AddToChat("Type !help to get some help", color);
 		client_AddToChat("Make sure to join our discord! https://discord.gg/VnzFfzT", color);
+		client_AddToChat("You can find a quickstart guide here: https://king-arthurs-gold-factions.fandom.com/wiki/Overview", color);
 		client_AddToChat("Have fun!", color);
 		show_message = false;
 	}
