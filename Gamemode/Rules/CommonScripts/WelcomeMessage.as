@@ -16,7 +16,7 @@ void onTick(CRules@ this)
 		CPlayer@ localPlayer = getLocalPlayer();
 		if (localPlayer is null) return;
 
-		SColor color = SColor(255, 127, 63, 63);
+		SColor color = SColor(255, 240, 5, 5);
 
 		client_AddToChat("Welcome to KAG factions!, " + localPlayer.getCharacterName() + "!", color);
 		client_AddToChat("Type !help to get some help", color);
